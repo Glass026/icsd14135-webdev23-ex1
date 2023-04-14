@@ -21,16 +21,20 @@ embed{vertical-align:top;}
 #page1 .text1{font-size:40px; font-weight:300; color:#fff; line-height:48px; padding:37px 0 15px 0;}
 #page1 header p{padding-bottom:50px;}
 
+#page2 h1{padding:77px 0 0 20px;}
 #page2 .col2{width:345px;}
 
+#page3 h1{padding:77px 0 0 20px;}
 #page3 .col3{width:258px;}
 #page3 .col2{width:570px;}
 #page3 .list2 li a{text-decoration:none;}
 #page3 .list2 li a:hover{text-decoration:underline;}
 
+#page4 h1{padding:77px 0 0 20px;}
 #page4 .col2{width:345px;}
 #page4 .col3{width:187px;}
 
+#page5 h1{padding:77px 0 0 20px;}
 #page5 .col3{width:258px;}
 #page5 .col2{width:570px;}
 #page5 .col3 strong{width:86px; float:left;}
@@ -67,7 +71,7 @@ p{padding-bottom:20px;}
 
 header{width:100%; overflow:hidden; padding-bottom:22px;}
 
-#logo{display:block; background:url("../images/logo.png") no-repeat; width:192px; height:58px; text-indent:-5000px;}
+#logo{display:block; background:url("../images/logo.png") no-repeat; width:290px; height:86px; text-indent:-5000px;}
 
 #menu{float:right; padding-top:30px; padding-bottom:5px;}
 #menu li{float:left; padding-right:9px; background:url("../images/menu_line.png") right 6px no-repeat; margin-right:8px;}
