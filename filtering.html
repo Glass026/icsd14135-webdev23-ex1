@@ -18,3 +18,44 @@
     <script src="js/staff.js"></script>
 </body>
 </html>
+
+<html>
+  <body>
+    <table id="table">
+      <tr id="tbody">
+        <th>Mattress Type</th>
+        <th>Link</th>
+      </tr>
+    </table>
+
+    <script type="text/javascript">
+    var table = document.getElementById("table");
+    var body = document.createElement("tbody");
+
+    var beds = new Array(3);
+    beds[0] = ["Spring Mattress",      "http://factorymattresstexas.com/specials/spring-air/"];
+    beds[1] = ["Rest Lumbar Support", "http://factorymattresstexas.com/specials/beautyrest-lumbar-support"];
+    beds[2] = ["Beauty Rest", "http://factorymattresstexas.com/specials/simmons-beautyrest/"];
+
+    table.appendChild(tbody);
+    beds.forEach(function(items) {
+        var row = document.createElement("tr");
+        var cell1 = document.createElement("td");
+        cell1.textContent = items[0];
+        row.appendChild(cell1);
+
+        var cell2 = document.createElement("td");
+        var link = document.createElement("a");
+        link.text = items[1]
+        link.href = items[1]
+        cell2.append(link)
+
+        row.appendChild(cell2);
+
+        table.appendChild(row);
+    });
+
+    </script>
+
+  </body>
+</html>

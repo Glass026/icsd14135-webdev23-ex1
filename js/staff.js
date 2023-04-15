@@ -1,6 +1,7 @@
 const employees = [
-    { name: 'Vouyioukas Demosthenes', category: 'professor' },
-    { name: 'Charalabidis Yannis', category: 'professor' },
+    { name: 'Mitrou Lilian', category: 'professor', empkey: 1, hyperlink: "http://127.0.0.1:5500/icsd/professor.html"  },
+    { name: 'Vouyioukas Demosthenes', category: 'professor' , empkey: 2},
+    { name: 'Charalabidis Yannis', category: 'professor' , empkey: 3},
     { name: 'Stamatatos Efstathios', category: 'professor' },
     { name: 'Skianis Charalabos', category: 'professor' },
     { name: 'Loukis Euripides', category: 'professor' },
@@ -20,7 +21,7 @@ const employees = [
     { name: 'Kalligeros Emmanouil', category: 'assistant professor' },
     { name: 'Kaporis Alexis', category: 'assistant professor' },
     { name: 'Leros Asimakis', category: 'assistant professor' },
-    //{ name: 'Mitrou Lilian', category: 'professor' },
+    
 ];
 
 function createEmployeeList() {
